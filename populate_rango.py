@@ -13,7 +13,7 @@ def populate():
         {"title":"How to Think like a Computer Scientist",
          "url":"http://www.greenteapress.com/thinkpython/", "views": 80},
         {"title":"Learn Python in 10 Minutes",
-         "url":"http://www.korokithakis.net/tutorials/python/", "views": 50} ]
+         "url":"http://www.korokithakis.net/tutorials/python/", "views": 70} ]
 
     django_pages = [
          {"title":"Official Django Tutorial",
@@ -25,9 +25,9 @@ def populate():
 
     other_pages = [
         {"title":"Bottle",
-         "url":"http://bottlepy.org/docs/dev/", "views": 40},
+         "url":"http://bottlepy.org/docs/dev/", "views": 60},
         {"title":"Flask",
-         "url":"http://flask.pocoo.org", "views": 60} ]
+         "url":"http://flask.pocoo.org", "views": 44} ]
 
     cats = {"Python": {"pages": python_pages, "views": 128, "likes": 64},
             "Django": {"pages": django_pages, "views": 64, "likes": 32},
