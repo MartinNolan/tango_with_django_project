@@ -27,7 +27,8 @@ class PageForm(forms.ModelForm):
             url = 'http://' + url
             cleaned_data['url'] = url
 
-            return cleaned_data
+        return cleaned_data
+
     
     class Meta:
         model = Page
