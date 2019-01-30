@@ -27,6 +27,7 @@ SECRET_KEY = 'ix@w=((6#eb_@#7cytns&6=u!uwgzw-k@_2-%-h)-i+8^2in98'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 ALLOWED_HOSTS = []
 
@@ -47,7 +48,8 @@ PASSWORD_HASHERS = [
 'django.contrib.auth.hashers.BCryptPasswordHasher',
 'django.contrib.auth.hashers.PBKDF2PasswordHasher',
 'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
-]
+]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
